@@ -61,16 +61,20 @@ $( "img.thumbnail" ).attr( "src", function() {
 function displayResult(videoSnippet) {
   var title = videoSnippet.title;
   var videoId = videoSnippet.resourceId.videoId;
+// Change the list video text to thumbnail
   var thumb = videoSnippet.thumbnails.default.url; 
   $('#video-container').append('<div><img title="' + title + '" class="thumbnail" src="'+thumb+'" ></div>');
   
 }
 
 // Get youtube link video.
+// Thumbnail can be clicked
 $('body').on('click','.thumbnail',function () {
+// Get ID video from Image thumbnail
   var img = $(this).attr('src');
   var imgSlit = img.split("/");
   var urlYoutube = 'http://www.youtube.com/watch?v='+imgSlit[4];
+// Sending Url to Submission page
   $(".youtube_url", window.opener.document).val(urlYoutube);
   $("#id_manualurl", window.opener.document).val(urlYoutube);
   window.close();
