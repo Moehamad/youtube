@@ -9,7 +9,7 @@ The YouTube assignment is contained in the "youtube" folder. That folder should 
 [PATH TO MOODLE]/mod/assign/submission
 Other folders in that directory will include, "file" and "onlinetext"
 
-Change the name of folder from "youtube-masster" to "youtube"
+Extract the file, Change the name of folder from "youtube-masster" to "youtube". and than convert to zip again than install it
 
 Once the folder is in place, Moodle will be able to install the plugin. First login as the site administrator. Moodle should detect the YouTube assignment and present a page with plugin information and the unavoidable option to proceed to install a new plugin. If Moodle does not automatically direct you to this page, you can go there from the Moodle menu:
 Site Administration -> Notifications
@@ -53,7 +53,7 @@ After the widget displays the student will need to both login to Google and to g
 
 The Submit YouTube URL Form
 This form allows the student to enter a YouTube URL directly as their submission. 
-It is  designed to allow students who have uploaded/recorded videos successfully but have somehow cleared their submission , to Ågre-linkÅh that video with their assignment. This situation might also occur if a user uploads a video, but forgets to press the assignment's "save changes" button. User can choose from youtube video that has uploaded in youtube.com with his account. the first step is login to user account google. if Login has been success, the video from user account will be showing as thumbnail. user choose a video, the page that show thumbnail closed and URL from that video will send to submission page.
+It is  designed to allow students who have uploaded/recorded videos successfully but have somehow cleared their submission , to ¬Ågre-link¬Åh that video with their assignment. This situation might also occur if a user uploads a video, but forgets to press the assignment's "save changes" button. User can choose from youtube video that has uploaded in youtube.com with his account. the first step is login to user account google. if Login has been success, the video from user account will be showing as thumbnail. user choose a video, the page that show thumbnail closed and URL from that video will send to submission page.
  
 
 Grading Assignments
